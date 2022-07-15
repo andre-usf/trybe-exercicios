@@ -60,6 +60,8 @@ div:nth-of-type(5) h3 {
     font-size: 30pt;
 }
 
-div:nth-of-type(odd){
+div:nth-of-type(odd) h3 {
     font-style: italic;
 }
+
+/* No gabarito utilizou o nth-of-child */
