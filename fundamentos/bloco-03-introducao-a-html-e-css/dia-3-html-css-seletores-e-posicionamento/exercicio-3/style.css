@@ -1,0 +1,29 @@
+/* 2 - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'. */
+
+/* 3 - Nesse arquivo .css, adicione os estilos para que:
+    - O texto das tags 'h1' e 'p' estejam centralizados.
+    - A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+    - A fonte do item mude quando ele for clicado. */
+
+h1, p {
+    text-align: center;
+}
+
+ol, ul {
+    width: 50%;
+}
+
+ol:hover, ul:hover {
+    background-color: greenyellow;
+}
+
+li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 20px;
+}
+
+/* 5 - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas. */
+
+ul, ol {
+    list-style: none;
+}
