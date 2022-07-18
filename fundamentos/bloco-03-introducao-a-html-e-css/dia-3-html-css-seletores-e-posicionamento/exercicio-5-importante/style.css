@@ -41,7 +41,7 @@ li em {
     font-weight: bold;
 }
 
-.top-3 {
+#linguagens li:not(:nth-child(n + 4)) {
     color: blue;
 }
 
@@ -49,26 +49,26 @@ li em {
     background-color: pink;
 }
 
-.hover li a:hover {
+#aliados li a:hover {
     font-weight: bold;
 }
 
-.stack:hover {
+#aliados li a[href*="stackoverflow"]:hover {
     color: orange;
 }
 
-.w3:hover {
+#aliados li a[href*="w3schools"]:hover {
     color: green;
 }
 
-.mdn:hover {
+#aliados li a[href*="mozilla"]:hover {
     color: black;
 }
-
-.devdocs:hover {
+  
+#aliados li a[href*="devdocs"]:hover {
     color: yellow;
 }
-
-.trybe:hover {
-    color: chartreuse;
+  
+#aliados li a[href*="trybe"]:hover {
+    color: green;
 }
