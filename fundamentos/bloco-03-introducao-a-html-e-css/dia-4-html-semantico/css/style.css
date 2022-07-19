@@ -1,12 +1,33 @@
-aside {
-    float: right;
+body {
+    background-color: #03045E;
+    color: #CAF0F8;
+    font-family: 'Lato', sans-serif;
 }
 
 table, td {
-    border-top: 1px solid black;
+    border-top: 1px solid #00B4D8;
+}
+
+section {
+    max-width: 50%;
 }
 
 img {
     width: 225px;
+    border-radius: 5%;
+    border: 10px solid #00B4D8;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #CAF0F8;
+}
+
+a:hover {
+    font-weight: bold;
+    color: rgb(4, 155, 241);
+}
+
+aside {
+    float: right;
+}
