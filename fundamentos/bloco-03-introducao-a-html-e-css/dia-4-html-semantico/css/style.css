@@ -1,0 +1,12 @@
+aside {
+    float: right;
+}
+
+table, td {
+    border-top: 1px solid black;
+}
+
+img {
+    width: 225px;
+}
+
