@@ -8,8 +8,8 @@ const numeroDois = 1;
 const numeroTres = 7;
 
 if (numeroUm % 2 == 0 || numeroDois % 2 == 0 || numeroTres % 2 == 0){
-  console.log("Um dos números é par!")
+  console.log("True")
 }
 else {
-  console.log("Todos os números são ímpares!")
+  console.log("False")
 }
