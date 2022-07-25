@@ -23,5 +23,13 @@ let infoDois = {
 }
 
 for (let index in info) {
-
+  if (
+    index === 'recorrente' &&
+    info[index] === 'Sim' &&
+    infoDois[index] === 'Sim'
+  ) {
+    console.log('Ambos recorrentes');
+  } else {
+    console.log(info[index] + ' e ' + infoDois[index]);
+  }
 }
