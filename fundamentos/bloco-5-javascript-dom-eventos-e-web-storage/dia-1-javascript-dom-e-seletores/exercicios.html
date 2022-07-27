@@ -47,35 +47,50 @@
         - document.getElementsByClassName()
         - document.getElementsByTagName() */
 
-        // Crie e execute uma função que mude o texto na tag `<p>-----</p>`, para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+        // 1. Crie e execute uma função que mude o texto na tag `<p>-----</p>`, para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
         function mudarTexto() {
           let texto = document.querySelectorAll(".center-content p")[1];
-          texto.innerHTML = "Daqui a 2 anos, me imagino trabalhando como desenvolvedor em uma empresa que eu me identifique."
+          texto.innerHTML = "Daqui a 2 anos, me imagino trabalhando como desenvolvedor em uma empresa que eu me identifique.";
         }
         mudarTexto();
 
-        // Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+        // 2. Crie e execute uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
         function mudaQuadradoAmarelo() {
           let cor = document.getElementsByClassName("main-content")[0];
           cor.style.backgroundColor = "rgb(76,164,109)";
         }
         mudaQuadradoAmarelo();
         
-        // Crie e execute uma função que mude a cor do quadrado vermelho para branco.
+        // 3. Crie e execute uma função que mude a cor do quadrado vermelho para branco.
         function mudaQuadradoVermelho() {
           let cor = document.getElementsByClassName("center-content")[0];
           cor.style.backgroundColor = "white";
         }
         mudaQuadradoVermelho();
 
-        // Crie e execute uma função que corrija o texto da tag <h1>.
-    /*
- 
- 
- 
- Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+        // 4. Crie e execute uma função que corrija o texto da tag <h1>.
+        function alteraTitulo() {
+          let titulo = document.getElementsByClassName("title")[0];
+          titulo.innerHTML = "Exercício 5.1 - JavaScript";
+        }
+        alteraTitulo();
+
+        // 5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
+        function modificaParagrafo() {
+          let paragrafo = document.querySelectorAll(".center-content p")[1];
+          paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
+        }
+        modificaParagrafo();
+
+        //  6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+        function exibeParagrafo() {
+          let paragrafo = document.getElementsByTagName("p");
+          for (let index = 0; index <= paragrafo.length; index += 1) {
+            console.log(paragrafo[index].innerHTML);
+          }
+        }
+        exibeParagrafo();
+
     </script>
   </body>
 </html>
