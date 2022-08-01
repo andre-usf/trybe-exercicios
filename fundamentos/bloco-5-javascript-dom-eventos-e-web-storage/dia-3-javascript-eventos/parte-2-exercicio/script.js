@@ -77,7 +77,7 @@ criaBotaoFeriados('Feriados');
 /* Exercício 3:
 Implemente uma função que muda a cor de fundo dos dias que possuem a classe "holiday".
 Adicione ao botão "Feriados" um evento de "click" que altere a cor de fundo dos dias que possuem a classe "holiday"
-👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial com a cor "rgb(238,238,238)". */
+É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial com a cor "rgb(238,238,238)". */
 
 const feriados = document.getElementsByClassName('holiday');
 const acessaBotaoFeriados = document.getElementById('btn-holiday');
@@ -117,7 +117,7 @@ criaBotaoSexta('Sexta-feira');
 
 /* Exercício 5:
 Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira. Adicione ao botão "Sexta-feira" um evento de "click" e modifique o texto a ser exibido nos dias que são sextas-feiras.
-👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial exibindo os dias. */
+É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial exibindo os dias. */
 
 const sextasFeiras = document.getElementsByClassName('friday');
 const acessaBotaoSexta = document.querySelector('#btn-friday');
@@ -192,4 +192,23 @@ adicionarLegendaColoria('red');
 Implemente uma função que selecione uma tarefa.
 Adicione um evento que ao clicar no elemento com a tag <div> referente à cor da sua tarefa, atribua a esse elemento a classe task selected, ou seja, quando sua tarefa possuir a classe task selected ela estará selecionada.
 Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task, ou seja, essa tarefa está deixando de ser uma tarefa selecionada. */
+
+function selecionarTarefa() {
+  const tarefa = document.querySelector('.task');
+  
+  tarefa.addEventListener('click', function(evento) {
+    if (evento.target.className === 'task') {
+      evento.target.className = 'task selected';
+    } else {
+      evento.target.className = 'task';
+    }
+  });
+}
+
+selecionarTarefa();
+
+/* Exercício 10:
+Implemente uma função que atribua a cor da tarefa ao dia do calendário.
+Adicione um evento que, ao clicar em um dia do mês no calendário, atribua a esse dia a cor da legenda da sua tarefa selecionada.
+Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) */
 
