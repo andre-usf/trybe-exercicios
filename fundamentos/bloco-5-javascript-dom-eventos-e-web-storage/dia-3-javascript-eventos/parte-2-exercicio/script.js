@@ -80,7 +80,7 @@ Adicione ao botão "Feriados" um evento de "click" que altere a cor de fundo dos
 👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial com a cor "rgb(238,238,238)". */
 
 const feriados = document.getElementsByClassName('holiday');
-const acessaBotao = document.getElementById('btn-holiday');
+const acessaBotaoFeriados = document.getElementById('btn-holiday');
 const novaCorFeriados = 'rgb(82, 182, 154)';
 const corPadraoFeriados = 'rgb(238,238,238)';
 
@@ -97,7 +97,7 @@ function alteraCorFeriados () {
   }
 }
 
-acessaBotao.addEventListener('click', alteraCorFeriados);
+acessaBotaoFeriados.addEventListener('click', alteraCorFeriados);
 
 /* Exercício 4:
 Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
@@ -119,6 +119,24 @@ criaBotaoSexta('Sexta-feira');
 Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira. Adicione ao botão "Sexta-feira" um evento de "click" e modifique o texto a ser exibido nos dias que são sextas-feiras.
 👀 É interessante que esse botão possua também a lógica inversa. Ao ser clicado novamente, ele retorna à configuração inicial exibindo os dias. */
 
+const sextasFeiras = document.getElementsByClassName('friday');
+const acessaBotaoSexta = document.querySelector('#btn-friday');
+const sextasPadrao = [4, 11, 18, 25];
+const sextou = 'SEXTOU!';
+
 function modificaTextoSexta() {
-  
+
+  for (let index = 0; index < sextasFeiras.length; index += 1) {
+    if (sextasFeiras[index].innerHTML === sextou) {
+      sextasFeiras[index].innerHTML = sextasPadrao[index];
+    } else {
+      sextasFeiras[index].innerHTML = sextou;
+    }
+  }
 }
+
+acessaBotaoSexta.addEventListener('click', modificaTextoSexta);
+
+/* Exercício 6:
+Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original. */
+
