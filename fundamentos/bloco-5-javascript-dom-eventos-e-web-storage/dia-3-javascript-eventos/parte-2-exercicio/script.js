@@ -34,7 +34,7 @@ Note que os dias 29 e 30 de novembro estão no array, pois representam respectiv
 let diasDeDezembro = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 let diasLista = document.getElementById('days');
 
-function criaOsDiasdoMes () {
+function criaOsDiasdoMes() {
 
   for (let index = 0; index < diasDeDezembro.length; index += 1) {
     const dias = document.createElement('li');
@@ -64,7 +64,7 @@ Sua função deve receber um parâmetro com a string 'Feriados'
 Adicione a este botão a ID "btn-holiday"
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container" */
 
-function criaBotaoFeriados (string) { 
+function criaBotaoFeriados(string) {
   const divPai = document.getElementsByClassName('buttons-container')[0];
   const botao = document.createElement('button');
   botao.id = 'btn-holiday';
@@ -84,16 +84,16 @@ const acessaBotaoFeriados = document.getElementById('btn-holiday');
 const novaCorFeriados = 'rgb(82, 182, 154)';
 const corPadraoFeriados = 'rgb(238,238,238)';
 
-function alteraCorFeriados () {
+function alteraCorFeriados() {
 
   for (let index = 0; index < feriados.length; index += 1) {
-    
+
     if (feriados[index].style.backgroundColor === novaCorFeriados) {
       feriados[index].style.backgroundColor = corPadraoFeriados;
     } else {
       feriados[index].style.backgroundColor = novaCorFeriados;
     }
-    
+
   }
 }
 
@@ -105,7 +105,7 @@ Adicione a esse botão o ID "btn-friday";
 Adicione esse botão como filho/filha da tag <div> com classe "buttons-container".
  */
 
-function criaBotaoSexta (string) {
+function criaBotaoSexta(string) {
   const buttonsContainer = document.querySelector('.buttons-container');
   const botaoSexta = document.createElement('button')
   botaoSexta.id = 'btn-friday';
@@ -142,7 +142,7 @@ Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do
 
 function darZoom() {
   let dias = document.querySelector('#days');
-  dias.addEventListener('mouseover', function(event) {
+  dias.addEventListener('mouseover', function (event) {
     event.target.style.fontSize = '30px';
     event.target.style.fontWeight = '600';
   });
@@ -150,7 +150,7 @@ function darZoom() {
 
 function zoomPadrao() {
   let dias = document.querySelector('#days');
-  dias.addEventListener('mouseout', function(event) {
+  dias.addEventListener('mouseout', function (event) {
     event.target.style.fontSize = '20px';
     event.target.style.fontWeight = '200';
   });
@@ -195,8 +195,8 @@ Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task,
 
 function selecionarTarefa() {
   const tarefa = document.querySelector('.task');
-  
-  tarefa.addEventListener('click', function(evento) {
+
+  tarefa.addEventListener('click', function (evento) {
     if (evento.target.className === 'task') {
       evento.target.className = 'task selected';
     } else {
@@ -211,4 +211,22 @@ selecionarTarefa();
 Implemente uma função que atribua a cor da tarefa ao dia do calendário.
 Adicione um evento que, ao clicar em um dia do mês no calendário, atribua a esse dia a cor da legenda da sua tarefa selecionada.
 Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) */
+
+function atribuirCorAoDia() {
+  const dias = document.querySelector('#days');
+  const tarefa = document.querySelector('.task');
+  const tarefaSelecionada = document.getElementsByClassName('task selected');
+  
+  dias.addEventListener('click', function (event) {
+    if (tarefaSelecionada.length !== 0) {
+      if (event.target.style.color !== 'red') {
+        event.target.style.color = 'red'
+      } else {
+        event.target.style.color = 'rgb(119,119,119)'
+      }
+    }
+  });
+}
+
+atribuirCorAoDia();
 
