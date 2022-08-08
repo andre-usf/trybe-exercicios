@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+  <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+  <form method="get" enctype="multipart/form-data">
+    <fieldset>
+
+      <p>
+        <label for="nome-usuario" class="mb-3 form-label"> Nome:
+          <input type="text" name="nome" id="nome-usuario" minlength="10" maxlength="40" placeholder="Seu nome completo"
+            required>
+        </label>
+      </p>
+
+      <p>
+        <label for="email-usuario" class="mb-3 form-label"> E-mail:
+          <input type="email" name="email" id="email-usuario" minlength="10" maxlength="50"
+            placeholder="Seu melhor e-mail" required>
+        </label>
+      </p>
+
+
+      <label class="form-check-label" for="cidade"></label>
+      <input class="form-check-input" type="radio" id="cidade" name="destino" value="cidade" required>Cidade
+
+      <label class="form-check-label" for="campo"></label>
+      <input class="form-check-input" type="radio" id="campo" name="destino" value="campo" required>Campo
+      
+
+      <label class="form-check-label" for="praia"></label>
+      <input class="form-check-input" type="radio" id="praia" name="destino" value="praia" required>Praia
+      
+
+      <label class="form-check-label" for="montanhas"></label>
+      <input class="form-check-input" type="radio" id="montanhas" name="destino" value="montanhas" required>Montanhas
+      
+
+      <p><label for="porque">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+          <p><textarea id="porque" name="porque" maxlength="500" placeholder="Digite sua resposta aqui"></textarea></p>
+        </label>
+      </p>
+
+      <label for="data">
+        <p> Qual a melhor data para sua viagem?
+          <input type="date" id="data" name="data">
+        </p>
+      </label>
+
+      <label class="mb-3 form-check form-switch" for="oportunidades">
+        <input class="form-check-input" type="checkbox" role="switch" type="checkbox" name="concordo01" id="oportunidades">Gostaria de receber outras incríveis oportunidades
+        oferecidas pela Trybe?
+        <br>
+      </label>
+      <label class="mb-3 form-check form-switch" for="concordo">
+        <input class="form-check-input" type="checkbox" role="switch" name="concordo" id="concordo">Concordo que imagens das minhas férias poderão ser usadas
+        na divulgação de concursos futuros.
+      </label>
+    </fieldset>
+
+    <p>
+      <button type="submit" id="botao-enviar" class="btn btn-success" disabled>Enviar</button>
+      <button type="button" id="botao-apagar" class="btn btn-danger">Apagar</button>
+    </p>
+  </form>
+
+  <script src="script.js"></script>
+  <script src="./bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+  <script src="./jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
