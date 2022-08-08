@@ -4,6 +4,13 @@ function preventEnviar () {
   const botao = document.querySelector('#botao-enviar');
   botao.addEventListener('click', (event) => {
     event.preventDefault();
+    
+    const validacao = validaCampos();
+      if (validacao === false) {
+        alert('Dados inválidos!')
+      } else {
+        alert('Dados enviados!')
+      }
   });
 };
 
@@ -35,6 +42,19 @@ function habilitaEnviar () {
 
 function validaCampos() {
 
+  const nome = document.getElementById('nome-usuario').value.length;
+  const nomeInvalido = nome < 10 || nome > 40;
 
+  const email = document.getElementById('email-usuario').value.length;
+  const emailInvalido = email < 10 || email > 50;
+
+  const porque = document.getElementById('porque').value.length;
+  const porqueInvalido = porque > 500;
+
+  if (nomeInvalido || emailInvalido || porqueInvalido) {
+    return false;
+  } else {
+    return true;
+  }
 
 };
