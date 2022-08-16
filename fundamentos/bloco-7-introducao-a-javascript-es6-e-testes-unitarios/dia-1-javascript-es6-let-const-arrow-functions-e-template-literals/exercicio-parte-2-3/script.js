@@ -14,3 +14,15 @@ Crie a lógica do evento, para que a cada click no botão seja adicionado o valo
 
 Dica: Nesse exercício utilize document. getElementById para retornar o elemento do DOM que deseja. */
 
+const botao = document.getElementById('botao');
+botao.addEventListener('click', clickCount);
+
+let contador = 0;
+
+function clickCount () {
+  
+  const span = document.getElementById('contador');
+  contador += 1;
+  span.innerHTML = contador;
+  
+}
