@@ -61,21 +61,8 @@ const books = [
   },
 ];
 
-// Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+// Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
-const anoAtual = new Date().getFullYear();
-const maiorDe60 = anoAtual - 60;
 
-const oldBooksOrdered = books.filter((book) => book.releaseYear < maiorDe60);
 
-const nomesLivros = oldBooksOrdered.map((book) => book.name);
-
-console.log(nomesLivros);
-
-/*
-const expectedResult = [
-  'O Senhor dos Anéis',
-  'Fundação',
-  'O Chamado de Cthulhu',
-];
-*/
+// const expectedResult = 'O Senhor dos Anéis';
