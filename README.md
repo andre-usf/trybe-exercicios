@@ -230,8 +230,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 14. MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _VPS_
-- [ ] 32-2: _CI/CD_
+- [ ] 14-1: _VPS_
+- [ ] 14-2: _CI/CD_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
