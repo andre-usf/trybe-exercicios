@@ -96,19 +96,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 4. Ciclo de Vida de Componentes e React Router
 
 - [X] 4-1: _Ciclo de vida de componentes_
-- [ ] 4-2: _React Router_
-- [ ] 4-3: _[Projeto - TrybeTunes]()_
+- [X] 4-2: _React Router_
+- [X] 4-3: _[Projeto - TrybeTunes]()_
 
 ##### Seção 5. Metodologias Ágeis
 
-- [ ] 5-1: _Metodologias Ágeis_
-- [ ] 5-2: _[Projeto - Frontend Online Store]()_
+- [X] 5-1: _Metodologias Ágeis_
+- [X] 5-2: _[Projeto - Frontend Online Store]()_
 
 ##### Seção 6. Testes Automatizados com React Testing Library
 
-- [ ] 6-1: _RTL - Primeiros passos_
-- [ ] 6-2: _RTL - Mocks e Inputs_
-- [ ] 6-3: _RTL - Testando React Router_
+- [X] 6-1: _RTL - Primeiros passos_
+- [X] 6-2: _RTL - Mocks e Inputs_
+- [X] 6-3: _RTL - Testando React Router_
 - [ ] 6-4: _[Projeto - Testes em React]()_
 
 ##### Seção 7.: Gerenciamento de Estado com Redux
