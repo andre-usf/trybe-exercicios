@@ -109,11 +109,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-1: _RTL - Primeiros passos_
 - [X] 6-2: _RTL - Mocks e Inputs_
 - [X] 6-3: _RTL - Testando React Router_
-- [ ] 6-4: _[Projeto - Testes em React]()_
+- [X] 6-4: _[Projeto - Testes em React]()_
 
 ##### Seção 7.: Gerenciamento de Estado com Redux
 
-- [ ] 7-1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 7-1: _Introdução ao Redux - O estado global da aplicação_
 - [ ] 7-2: _Usando o Redux no React_
 - [ ] 7-3: _Usando o Redux no React - Prática_
 - [ ] 7-4: _Usando o Redux no React - Actions Assíncronas_
