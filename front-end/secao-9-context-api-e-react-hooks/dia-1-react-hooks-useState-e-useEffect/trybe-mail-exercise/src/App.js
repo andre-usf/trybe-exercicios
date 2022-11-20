@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Emails from './components/Emails';
+import { emailsList } from './data/emailsList';
+import './App.css'
 
 function App() {
+  const [emails, setEmails] = useState(emailsList);
+
+  function setStatus(emailId, status) {
+    console.log(emailId, status)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header>HEADER</header>
+      <div>MARCAR TODOS</div>
+      <Emails emails={ emails } setStatus={ setStatus } />
     </div>
   );
 }
