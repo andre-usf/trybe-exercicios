@@ -157,12 +157,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-1: _Funções mais usadas no SQL_
 - [X] 3-2: _Descomplicando JOINs e UNIONs_
 - [X] 3-3: _Stored Routines & Subqueries_
-- [ ] 3-4: _[Projeto - One For All]()_
+- [X] 3-4: _[Projeto - One For All]()_
 
 ##### Seção 4. Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 4-1: _Node.js: Runtime Assíncrono_
-- [ ] 4-2: _Node.js: API REST com Express_
+- [X] 4-1: _Node.js: Runtime Assíncrono_
+- [X] 4-2: _Node.js: API REST com Express_
 - [ ] 4-2: _Node.js: Testes de Integração_
 - [ ] 4-3: _Express: Middlewares_
 - [ ] 4-4: _Node.js: Express e Mysql_
