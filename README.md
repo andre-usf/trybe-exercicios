@@ -163,15 +163,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 4-1: _Node.js: Runtime Assíncrono_
 - [X] 4-2: _Node.js: API REST com Express_
-- [ ] 4-2: _Node.js: Testes de Integração_
-- [ ] 4-3: _Express: Middlewares_
-- [ ] 4-4: _Node.js: Express e Mysql_
-- [ ] 4-5: _[Projeto - One For All]()_
+- [X] 4-2: _Node.js: Testes de Integração_
+- [X] 4-3: _Express: Middlewares_
+- [X] 4-4: _Node.js: Express e Mysql_
+- [X] 4-5: _[Projeto - One For All]()_
 
 ##### Seção 5. Arquitetura de Software: Model, Service e Controller
 
-- [ ] 5-1: _Arquitetura de Software: Camada Model_
-- [ ] 5-2: _Arquitetura de Software: Camada Service_
+- [X] 5-1: _Arquitetura de Software: Camada Model_
+- [X] 5-2: _Arquitetura de Software: Camada Service_
 - [ ] 5-3: _Arquitetura de Software: Camada Controller_
 - [ ] 5-4: _[Projeto - Store Manager]()_
 
