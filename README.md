@@ -172,12 +172,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 5-1: _Arquitetura de Software: Camada Model_
 - [X] 5-2: _Arquitetura de Software: Camada Service_
-- [ ] 5-3: _Arquitetura de Software: Camada Controller_
-- [ ] 5-4: _[Projeto - Store Manager]()_
+- [X] 5-3: _Arquitetura de Software: Camada Controller_
+- [X] 5-4: _[Projeto - Store Manager]()_
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 6-1: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 6-2: _ORM - Associations 1:1 e 1:N_
 - [ ] 6-3: _ORM - Associations N:N e Transactions_
 - [ ] 6-4: _JWT - (JSON Web Token)_
