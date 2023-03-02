@@ -5,6 +5,40 @@ const getAll = async (_req, res) => {
   return res.status(200).json(books);
 }
 
+const getById = async (req, res) => {
+  const { id } = req.params;
+  const book = await bookService.getById(id);
+
+  if (!book) return res.status(404).json({ message: 'Livro não encontrado' })
+
+  return res.status(200).json(book);
+}
+
+const createBook = async (req, res) => { 
+  const { title, author, pageQuantity } = req.body;
+  const newBook = await bookService.createBook(title, author, pageQuantity);
+  return res.status(201).json(newBook);
+}
+
+const updateBook = async (req, res) => {
+  const { id } = req.params;
+  const { title, author, pageQuantity } = req.body;
+  const updatedBook = await bookService.updateBook(id, { title, author, pageQuantity });
+  if (!updatedBook) return res.status(404).json({ message: 'Livro não encontrado'});
+  return res.status(201).json({ message: 'Livro atualizado'});
+}
+
+const removeBook = async (req, res) => {
+  const { id } = req.params;
+  const removedbook = await bookService.removeBook(id);
+  if (!removedbook) return res.status(404).json({ message: 'Livro não encontrado'});
+  return res.status(200).json({ message: 'Livro removido'});
+}
+
 module.exports = {
   getAll,
+  getById,
+  createBook,
+  updateBook,
+  removeBook,
 }
