@@ -72,7 +72,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [X] 8-6: _[Projeto - Zoo functions]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Seção 1. JavaScript e Testes Assíncronos
 
@@ -180,19 +180,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-1: _ORM - Interface da aplicação com o banco de dados_
 - [X] 6-2: _ORM - Associations 1:1 e 1:N_
 - [X] 6-3: _ORM - Associations N:N e Transactions_
-- [ ] 6-4: _JWT - (JSON Web Token)_
-- [ ] 6.5: _[Projeto - API de Blogs]()_
+- [X] 6-4: _JWT - (JSON Web Token)_
+- [X] 6.5: _[Projeto - API de Blogs]()_
 
-##### Seção 7. Deployment
+##### Seção 7. Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] 7-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 7-2: _Deploy Docker & Heroku_
-- [ ] 7-3: _[Projeto - Stranger Things]()_
+- [X] 7-1: _Infraestrutura: Deploy com Railway_
 
 ##### Seção 8. TypeScript
 
-- [ ] 8-1: _Introdução ao TypeScript_
-- [ ] 8-2: _Tipagem Estática e Generics_
+- [X] 8-1: _Introdução ao TypeScript_
+- [X] 8-2: _Tipagem Estática e Generics_
 - [ ] 8-3: _Express com TypeScript_
 - [ ] 8-4: _[Projeto - Trybesmith]()_
 
@@ -207,7 +205,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 10. Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 10-1: _[Projeto - Store Manager]()_
+- [ ] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Seção 11. Introdução ao MongoDB
 
@@ -218,20 +216,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 11-5: _Updates Complexos - Arrays_
 - [ ] 11-6: _[Projeto - Commerce]()_
 
-##### Seção 12. MongoDB com Node.js e POO
+##### Seção 12. APIs OO e NoSQL
 
-- [ ] 12-1: _Mongoose e arquitetura MSC (Camada Model)_
-- [ ] 12-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 12-3: _[Projeto - Car Shop]()_
 
 ##### Seção 13. App de Delivery
 
 - [ ] 13-1: _[Projeto - App de Delivery]()_
-
-##### Seção 14. MasterClass - VPS, CI/CD
-
-- [ ] 14-1: _VPS_
-- [ ] 14-2: _CI/CD_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -251,9 +244,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 3. Redes e Raspagem de Dados
 
-- [ ] 3-1: _Arquitetura de redes_
-- [ ] 3-2: _Raspagem de Dados_
-- [ ] 3-3: _Outras Ferramentas de Raspagem de Dados_
+- [ ] 3-1: _Raspagem de Dados_
+- [ ] 3-2: _Outras Ferramentas de Raspagem de Dados_
+- [ ] 3-3: _Dia de Atividades - Crawlers + POO_
 - [ ] 3-4: _[Projeto - Tech news]()_
 
 ##### Seção 4. Algoritmos
@@ -266,10 +259,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 5. Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
 - [ ] 5-1: _Arquitetura de Computadores_
-- [ ] 5-2: _Arrays_
-- [ ] 5-3: _Nó e Listas Encadeadas_
-- [ ] 5-4: _Pilhas e Filas_
-- [ ] 5-5: _[Projeto - TING - Trybe Is Not Google]()_
+- [ ] 5-2: _Arquitetura de Redes_
+- [ ] 5-3: _Arrays_
+- [ ] 5-4: _Nó e Listas Encadeadas_
+- [ ] 5-5: _Pilhas e Filas_
+- [ ] 5-6: _[Projeto - TING - Trybe Is Not Google]()_
 
 ##### Seção 6. Estrutura de Dados II: Hashmaps e Sets
 
