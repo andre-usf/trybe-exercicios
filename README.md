@@ -191,21 +191,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 8-1: _Introdução ao TypeScript_
 - [X] 8-2: _Tipagem Estática e Generics_
-- [ ] 8-3: _Express com TypeScript_
-- [ ] 8-4: _[Projeto - Trybesmith]()_
+- [X] 8-3: _Express com TypeScript_
+- [X] 8-4: _[Projeto - Trybesmith]()_
 
 ##### Seção 9. Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Interfaces_
-- [ ] 9-3: _Polimorfismo_
-- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 9-5: _SOLID - Princípios L e I_
-- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
+- [X] 9-1: _Introdução à Orientação a Objetos_
+- [X] 9-2: _Herança e Interfaces_
+- [X] 9-3: _Polimorfismo_
+- [X] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [X] 9-5: _SOLID - Princípios L e I_
+- [X] 9-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Seção 10. Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [X] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Seção 11. Introdução ao MongoDB
 
