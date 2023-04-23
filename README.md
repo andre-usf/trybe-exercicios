@@ -209,16 +209,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 11. Introdução ao MongoDB
 
-- [ ] 11-1: _MongoDB - Introdução_
-- [ ] 11-2: _Filter Operators_
-- [ ] 11-3: _Operadores de consulta_
-- [ ] 11-4: _Updates Simples_
-- [ ] 11-5: _Updates Complexos - Arrays_
-- [ ] 11-6: _[Projeto - Commerce]()_
+- [X] 11-1: _MongoDB - Introdução_
+- [X] 11-2: _Filter Operators_
+- [X] 11-3: _Operadores de consulta_
+- [X] 11-4: _Updates Simples_
+- [X] 11-5: _Updates Complexos - Arrays_
+- [X] 11-6: _[Projeto - Commerce]()_
 
 ##### Seção 12. APIs OO e NoSQL
 
-- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [X] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
 - [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
 - [ ] 12-3: _[Projeto - Car Shop]()_
 
